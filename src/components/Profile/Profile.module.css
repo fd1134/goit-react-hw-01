@@ -5,8 +5,12 @@
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    border: 2px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.profile:hover {
+    transform: scale(1.2);
+  }
 .profileCart{
     display: flex;
     flex-direction: column;
@@ -18,6 +22,7 @@
    
     
 }
+
 .name {
     font-size: 20px;
     font-weight: 700;
